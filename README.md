@@ -35,9 +35,9 @@ A nota fiscal deve conter campos obrigatórios e passar por validações especí
 
 - **Design Patterns:** Utilização de alguns Design Patterns para resolver desafios de design comuns.
 
-- **Geração de PDF** Foi incorporada a capacidade de criar documentos em formato PDF a partir dos dados do sistema. Isso permite a geração dinâmica de relatórios ou documentos essenciais para o usuário ou processos internos.
+- **Geração de PDF:** Foi incorporada a capacidade de criar documentos em formato PDF a partir dos dados do sistema. Isso permite a geração dinâmica de relatórios ou documentos essenciais para o usuário ou processos internos.
   
-- **Storage** Foi implementado um serviço para gerenciar o armazenamento e o acesso aos documentos do sistema por meio de soluções de storage, como armazenamento em nuvem, bancos de dados ou sistemas de arquivos locais.
+- **Storage:** Foi implementado um serviço para gerenciar o armazenamento e o acesso aos documentos do sistema por meio de soluções de storage, como armazenamento em nuvem, bancos de dados ou sistemas de arquivos locais.
 
 ## Recomendações
 
