@@ -73,13 +73,16 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório
 2. Configure o ambiente de acordo com o .env.example `cp .env.example .env`
-3. Instalar as dependências do composer ```docker run --rm \
-    -u "$(id -u):$(id -g)" \
-    -v "$(pwd):/var/www/html" \
-    -w /var/www/html \
-    laravelsail/php83-composer:latest \
-    composer install --ignore-platform-reqs```
-4. Inicie o projeto com docker `./vendor/bin/sail up`
+3. Instalar as dependências do composer
+   ```bash
+        docker run --rm
+        -u "$(id -u):$(id -g)"
+        -v "$(pwd):/var/www/html"
+        -w /var/www/html
+        laravelsail/php83-composer:latest
+        composer install --ignore-platform-reqs
+    ```
+5. Inicie o projeto com docker `./vendor/bin/sail up`
 3. Execute as migrações do banco `./vendor/bin/sail artisan migrate`
 
 ## Documentação da API
