@@ -4,17 +4,6 @@
 </p>
 Este projeto é uma API REST para gerenciamento de notas fiscais dos usuários, desenvolvido como parte de um desafio de backend.
 
-## Requisitos do Desafio
-
-### Pontos Essenciais:
-- Utilizar PHP 8+ e Framework Laravel 10+
-- Banco de dados MySql ou Mongodb
-- Criar um projeto público no GitHub com a solução do desafio
-
-### Pontos Extras:
-- Utilização de Docker
-- Implementação de pipeline no GitHub Actions para testes automáticos
-
 ## Desafio
 
 O objetivo é desenvolver uma API REST para controle de notas fiscais dos usuários. Principais funcionalidades incluem:
