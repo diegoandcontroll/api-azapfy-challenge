@@ -72,8 +72,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 ### Instalação
 
 1. Clone o repositório
-2. Configure o ambiente de acordo com o .env.example ```bash
-   cp .env.example .env```
+2. Configure o ambiente de acordo com o .env.example `cp .env.example .env`
 4. Instalar as dependências do composer
    ```bash
    docker run --rm \
