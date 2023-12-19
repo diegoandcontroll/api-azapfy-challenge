@@ -62,12 +62,7 @@ Algumas sugestões para a realização do teste:
 Para executar o projeto localmente, siga os passos abaixo:
 
 ### Pré-requisitos
-
-- PHP 8+
-- Composer
-- MySql ou Mongodb
-- Redis
-- Docker (opcional)
+- Docker
 
 ### Instalação
 
